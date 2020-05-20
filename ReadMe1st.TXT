@@ -1,0 +1,72 @@
+Note:-
+The Camera is Authorized with 
+username:hikcam61
+password:Hik123456
+
+Note:-
+you must give it a static IP on the LAN.
+Need to cables one for power other for Lan.
+**********************************************************************************************************
+1.Introduction ( Description ) :-
+
+This system is called Motion Detection and it monitors motion from an IP cam and using the OpenCV API. 
+Once motion is detected by the system, it takes a picture and E-mails that picture to you.
+
+**********************************************************************************************************
+
+2.Used Components:-
+IPCam ( Hikvision ds-2cv2q21fd-iw ).
+
+**********************************************************************************************************
+
+3.Cost :-
+
+1500 LE for the new Camera
+700 LE for the old Camera
+
+Total = 2200 LE
+
+**********************************************************************************************************
+4.used Programming Language:-
+Python 3.7 
+HTML
+CSS
+**********************************************************************************************************
+5.Core Code:-
+Intel(R) cORE(TM) i7-8550U CPU @ 1.80GHz 1.99 GHz
+
+**********************************************************************************************************
+6.Execution Result :-
+Take Shot From IPCam and Send it to Your Mail.
+
+**********************************************************************************************************
+7.Future Vision:-
+
+This system is called MotionDetection and it monitors motion from an IPCam using the OpenCV API.
+Once motion is detected by the system, it takes a picture of what set the motion detection from IPCam and E-mails that picture to you.
+It also will afford the ability to remotely view that IPCam from an Web app from anywhere in the world at anytime. 
+So after you’re notified via E-mail, then you have the option of checking the camera’s live feed if you’d like, and know the type 
+of the mothion with AI. 
+
+A video demo can be found HERE.
+
+
+**********************************************************************************************************
+8.libraries:-
+
+opencv
+flask 
+pandas
+smtplib
+
+**********************************************************************************************************
+9.Deploy ( Run ):-
+
+1.Open Anaconoda prompt
+2.Navigate to the Project Folder
+3.Write in it : Python app.py
+4.Take The host='127.0.0.1' and Put it into the Browser.
+
+**********************************************************************************************************
+10.IDEs:-
+Anaconda3 Prompt
